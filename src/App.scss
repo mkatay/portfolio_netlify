@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+section{
+  min-height: 100vh;
+  scroll-snap-align: start;
+  padding-top: 60px;
+}
+
+body{
+  background-color: $primary-color;
+  color: aliceblue;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+@media (max-width:600px){
+ html{
+    scroll-snap-type:none;
+  }
+
+}

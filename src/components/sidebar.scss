@@ -1,0 +1,40 @@
+@import '../variables.scss';
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+    button{
+        background-color: $primary-color;
+        color: aliceblue;
+        position: fixed;
+        top:15px;/**/
+        left:2px;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        border:none;
+
+    
+    }
+    .bg{
+       background-color: $primary-color;/**/
+        position: fixed;
+        top:60px;/**/
+        left:0;
+       /* height: 100vh;*//**/
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:15px;
+        align-items: center;
+        padding: 1rem;/**/
+  box-shadow: 0 0 15px gray;/**/
+
+        a{
+            text-decoration: none;
+            color: aliceblue;/**/
+        }
+    }
+}
