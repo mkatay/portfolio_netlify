@@ -9,6 +9,10 @@
   ### Deploying on Netlify
 - build:
     > pnpm run build
-- drag-and-drop dist folder
+- deploy manualy: drag-and-drop dist folder
+- deploy from GitHub repo:
+  
 
-Demo: [Portfolio](https://mkatay.github.io/portfolio-react/#Home)
+![deploying from GitHub repo](./deploy.jpg)
+
+Demo: [Portfolio](https://thunderous-stroopwafel-21f0b5.netlify.app/)
